@@ -1,0 +1,3 @@
+# Unnecessary Re-renders in React useEffect Hook
+
+This repository demonstrates a common React bug where the useEffect hook is called after every render, even when it doesn't need to be.  This can lead to performance issues, especially if the effect performs expensive operations. The solution shows how to optimize useEffect to run only when necessary, improving performance and reducing unnecessary computations.  The bug is showcased in `bug.js` and the solution in `bugSolution.js`.
